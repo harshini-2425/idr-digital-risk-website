@@ -148,7 +148,8 @@ Potential future enhancement themes:
 - Team and partner profiles.
 - Case studies and outcomes.
 - Multi-page conversion with CMS integration.
-  # Institute of Digital Risk (IDR) Homepage Project
+  
+# Institute of Digital Risk (IDR) Homepage Project
 
 ## 🌐 Live Website
 https://peppy-moxie-09df9c.netlify.app/
