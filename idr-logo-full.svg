@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="cubeTop2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E04E00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cubeLeft2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E2E2E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cubeRight2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3A3A3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cube icon (scaled to fit 80px height) -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#cubeTop2)"/>
+  <polygon points="12,24 40,40 40,68 12,52" fill="url(#cubeLeft2)"/>
+  <polygon points="68,24 68,52 40,68 40,40" fill="url(#cubeRight2)"/>
+  <polyline points="40,8 68,24 68,52 40,68 12,52 12,24 40,8" fill="none" stroke="#FF6B1A" stroke-width="0.8" stroke-opacity="0.4"/>
+  <line x1="40" y1="8" x2="40" y2="40" stroke="#FF6B1A" stroke-width="0.6" stroke-opacity="0.3"/>
+  <line x1="12" y1="24" x2="40" y2="40" stroke="#fff" stroke-width="0.6" stroke-opacity="0.15"/>
+  <line x1="68" y1="24" x2="40" y2="40" stroke="#fff" stroke-width="0.6" stroke-opacity="0.15"/>
+  <circle cx="40" cy="8" r="2.5" fill="#FF6B1A"/>
+
+  <!-- Divider -->
+  <line x1="84" y1="18" x2="84" y2="62" stroke="#333" stroke-width="1"/>
+
+  <!-- IDR wordmark -->
+  <text x="96" y="38" font-family="'Courier New', monospace" font-weight="700" font-size="28" letter-spacing="6" fill="#1A1A1A">IDR</text>
+
+  <!-- Full name -->
+  <text x="96" y="56" font-family="'Courier New', monospace" font-weight="400" font-size="9.5" letter-spacing="2.5" fill="#555">INSTITUTE OF DIGITAL RISK</text>
+</svg>

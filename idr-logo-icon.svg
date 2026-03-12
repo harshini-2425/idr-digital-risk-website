@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="cubeTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E04E00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E2E2E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3A3A3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Cube top face -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#cubeTop)"/>
+  <!-- Cube left face -->
+  <polygon points="12,24 40,40 40,68 12,52" fill="url(#cubeLeft)"/>
+  <!-- Cube right face -->
+  <polygon points="68,24 68,52 40,68 40,40" fill="url(#cubeRight)"/>
+
+  <!-- Subtle edge lines for definition -->
+  <polyline points="40,8 68,24 68,52 40,68 12,52 12,24 40,8" fill="none" stroke="#FF6B1A" stroke-width="0.8" stroke-opacity="0.4"/>
+  <line x1="40" y1="8" x2="40" y2="40" stroke="#FF6B1A" stroke-width="0.6" stroke-opacity="0.3"/>
+  <line x1="12" y1="24" x2="40" y2="40" stroke="#fff" stroke-width="0.6" stroke-opacity="0.15"/>
+  <line x1="68" y1="24" x2="40" y2="40" stroke="#fff" stroke-width="0.6" stroke-opacity="0.15"/>
+
+  <!-- Small accent dot at apex -->
+  <circle cx="40" cy="8" r="2.5" fill="#FF6B1A"/>
+</svg>
