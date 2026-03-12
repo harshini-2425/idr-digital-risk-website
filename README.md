@@ -149,7 +149,13 @@ Potential future enhancement themes:
 - Team and partner profiles.
 - Case studies and outcomes.
 - Multi-page conversion with CMS integration.
-=======
-# idr-digital-risk-website
-Responsive homepage and logo design for the Institute of Digital Risk (IDR) built using HTML, CSS and JavaScript.
->>>>>>> acd410a72c6879168b892a16ca4807579ad08826
+  # Institute of Digital Risk (IDR) Homepage Project
+
+## 🌐 Live Website
+https://peppy-moxie-09df9c.netlify.app/
+
+## GitHub Repository
+https://github.com/harshini-2425/idr-digital-risk-website
+
+## Project Summary
+This project delivers a brand identity and a responsive homepage for the Institute of Digital Risk (IDR), an industry-led training and deployment institute focused on digital, cyber, technology, and AI risk.
