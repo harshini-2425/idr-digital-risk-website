@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Institute of Digital Risk (IDR) Homepage Project
 
 ## Project Summary
@@ -148,3 +149,7 @@ Potential future enhancement themes:
 - Team and partner profiles.
 - Case studies and outcomes.
 - Multi-page conversion with CMS integration.
+=======
+# idr-digital-risk-website
+Responsive homepage and logo design for the Institute of Digital Risk (IDR) built using HTML, CSS and JavaScript.
+>>>>>>> acd410a72c6879168b892a16ca4807579ad08826
