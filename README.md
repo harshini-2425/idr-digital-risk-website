@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Institute of Digital Risk (IDR) Homepage Project
 
 ## Project Summary
